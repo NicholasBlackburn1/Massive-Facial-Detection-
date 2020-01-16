@@ -28,7 +28,7 @@ while True:
         cv2.rectangle(frame, (x, y), (x + w, y + h), (0, 0, 255), 2)
 
         cv2.putText(frame, str(faces.shape[0]), (100, 100),
-                    font, 2.0, (0, 255, 0), 1)
+                    font, 1.0, (0, 255, 0), 1)
 
     # Display the resulting frame
     cv2.imshow('Video', frame)
